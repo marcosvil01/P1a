@@ -48,15 +48,10 @@ public class ex_18 {
                         isSubDepartment = false;
                     }
                 }
-
-                // Mètode per processar el text dins d'un element
-                public void characters(char[] ch, int start, int length) throws SAXException {
-                    // No cal processar caràcters en aquest cas, ja que tots els atributs són processats per startElement
-                }
             };
 
             // 3. Llegir el fitxer XML
-            File inputFile = new File("files/company.xml");
+            File inputFile = new File("files/employees.xml");
             saxParser.parse(inputFile, handler);
 
         } catch (Exception e) {

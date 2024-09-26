@@ -58,7 +58,7 @@ public class ex_17 {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource domSource = new DOMSource(document);
-            StreamResult streamResult = new StreamResult(new File("files/company.xml"));
+            StreamResult streamResult = new StreamResult(new File("files/employees.xml"));
             transformer.transform(domSource, streamResult);
 
             System.out.println("El fitxer XML s'ha generat correctament!");

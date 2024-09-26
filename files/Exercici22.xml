@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentslist>
+    <student name="Joan" age="19"/>
+    <student name="Maria" age="20"/>
+    <student name="Pere" age="21"/>
+    <student name="Julia" age="34"/>
+    <student name="Marcos" age="25"/>
+    <student name="Arnau" age="22"/>
+</studentslist>
